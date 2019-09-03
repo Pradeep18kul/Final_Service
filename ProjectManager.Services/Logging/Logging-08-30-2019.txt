@@ -1,0 +1,153 @@
+8/30/2019 12:26:26 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[]"
+
+8/30/2019 12:26:26 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[]"
+
+8/30/2019 12:26:26 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[]"
+
+8/30/2019 12:26:41 AM INFO Request Uri: POST http://localhost/ProjectManagerServices/v1/users, 
+Request: '{"userId":null,"firstName":"Pradeep","lastName":"K","employeeId":1}'
+
+8/30/2019 12:26:41 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjectManager.Services.Controllers.UsersController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+8/30/2019 12:26:41 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users/NaN, 
+Response: "{\"Message\":\"The request is invalid.\",\"MessageDetail\":\"The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Http.IHttpActionResult GetById(Int32)' in 'ProjectManager.Services.Controllers.UsersController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.\"}"
+
+8/30/2019 12:26:45 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[]"
+
+8/30/2019 12:26:45 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":0,\"TaskId\":0}]"
+
+8/30/2019 12:26:45 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":0,\"TaskId\":0}]"
+
+8/30/2019 12:27:14 AM INFO Request Uri: POST http://localhost/ProjectManagerServices/v1/projects, 
+Request: '{"projectId":0,"projectName":"Project_1","setStartAndEndDate":true,"startDate":"2019-08-30","endDate":"2019-12-25","priority":0,"manager":"Pradeep K","userId":1}'
+
+8/30/2019 12:27:23 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:27:23 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:27:23 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:27:33 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:27:33 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:27:33 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:27:33 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks/parent-tasks, 
+Response: "[]"
+
+8/30/2019 12:27:33 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:27:33 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks/parent-tasks, 
+Response: "[]"
+
+8/30/2019 12:27:55 AM INFO Request Uri: POST http://localhost/ProjectManagerServices/v1/tasks, 
+Request: '{"taskId":0,"taskName":"Task_1","projectId":1,"projectName":"Project_1","isParentTask":false,"priority":29,"parentTaskId":0,"parentTaskName":"","startDate":"2019-08-30","endDate":"2019-08-31","managerId":1,"managerName":"Pradeep K"}'
+
+8/30/2019 12:27:55 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:27:56 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:27:56 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks, 
+Response: "[]"
+
+8/30/2019 12:27:56 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks, 
+Response: "[]"
+
+8/30/2019 12:27:59 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:27:59 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:27:59 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:27:59 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:27:59 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Task_1\"}]"
+
+8/30/2019 12:28:00 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:28:00 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:28:00 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Task_1\"}]"
+
+8/30/2019 12:28:00 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:28:05 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:28:05 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks, 
+Response: "[]"
+
+8/30/2019 12:28:05 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:28:05 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks, 
+Response: "[]"
+
+8/30/2019 12:28:13 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:28:13 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:28:13 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:28:14 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Task_1\"}]"
+
+8/30/2019 12:28:14 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:28:14 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"Task_1\"}]"
+
+8/30/2019 12:28:14 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:28:14 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"Pradeep\",\"LastName\":\"K\",\"EmployeeId\":1,\"ProjectId\":1,\"TaskId\":0}]"
+
+8/30/2019 12:28:14 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":0,\"Completed\":\"Yes\"}]"
+
+8/30/2019 12:28:33 AM INFO Request Uri: POST http://localhost/ProjectManagerServices/v1/tasks, 
+Request: '{"taskId":0,"taskName":"Task_1_1","projectId":1,"projectName":"Project_1","isParentTask":false,"priority":0,"parentTaskId":1,"parentTaskName":"Task_1","startDate":"2019-08-30","endDate":"2019-08-31","managerId":1,"managerName":"Pradeep K"}'
+
+8/30/2019 12:28:34 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+8/30/2019 12:28:34 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-12-25T00:00:00\",\"Priority\":0,\"Manager\":\"Pradeep K\",\"UserId\":1,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+8/30/2019 12:28:34 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Task_1_1\",\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"Priority\":0,\"ParentTaskId\":1,\"ParentTaskName\":\"Task_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-08-31T00:00:00\",\"ManagerId\":1,\"ManagerName\":\"Pradeep K\",\"Status\":\"No\"}]"
+
+8/30/2019 12:28:34 AM INFO Request Uri: GET http://localhost/ProjectManagerServices/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"Task_1_1\",\"ProjectId\":1,\"ProjectName\":\"Project_1\",\"Priority\":0,\"ParentTaskId\":1,\"ParentTaskName\":\"Task_1\",\"StartDate\":\"2019-08-30T00:00:00\",\"EndDate\":\"2019-08-31T00:00:00\",\"ManagerId\":1,\"ManagerName\":\"Pradeep K\",\"Status\":\"No\"}]"
+

@@ -1,0 +1,16 @@
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\ProjectManager.Repositories.dll.config
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\ProjectManager.Repositories.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\ProjectManager.Repositories.pdb
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\EntityFramework.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\ProjectManager.Entities.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\ProjectManager.Infrastructure.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\ProjectManager.Entities.pdb
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\ProjectManager.Infrastructure.pdb
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\EntityFramework.xml
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\obj\Debug\ProjectManager.Repositories.csprojResolveAssemblyReference.cache
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\obj\Debug\ProjectManager.Repositories.Migrations.AddPriorityToTask.resources
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\obj\Debug\ProjectManager.Repositories.csproj.GenerateResource.Cache
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\obj\Debug\ProjectManager.Repositories.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Repositories\obj\Debug\ProjectManager.Repositories.pdb

@@ -1,0 +1,14 @@
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Business.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Business.pdb
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Entities.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Infrastructure.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Repositories.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\EntityFramework.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Entities.pdb
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Infrastructure.pdb
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Repositories.pdb
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\ProjectManager.Repositories.dll.config
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\bin\Debug\EntityFramework.xml
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\obj\Debug\ProjectManager.Business.csprojResolveAssemblyReference.cache
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\obj\Debug\ProjectManager.Business.dll
+C:\Final_FSE\ProjectManagerServices\ProjectManager.Business\obj\Debug\ProjectManager.Business.pdb
